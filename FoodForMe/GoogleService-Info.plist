@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCE6_zVm9kRBDMc4g594rOXhRMHfufyDy0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>11693787419</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>utcs.FoodForMe</string>
+	<key>PROJECT_ID</key>
+	<string>foodforme-d9b9a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foodforme-d9b9a.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:11693787419:ios:3f6bdcd7c92269e863ebbe</string>
+</dict>
+</plist>

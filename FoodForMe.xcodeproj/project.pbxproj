@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45B3B182D03D8D0007FDD09 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D45B3B172D03D8D0007FDD09 /* FirebaseFirestore */; };
+		D45B3B1A2D03D8D0007FDD09 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D45B3B192D03D8D0007FDD09 /* FirebaseFirestoreCombine-Community */; };
+		D45B3B1C2D03DC7B007FDD09 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D45B3B1B2D03DC7B007FDD09 /* FirebaseStorage */; };
+		D45B3B1E2D03DC7B007FDD09 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D45B3B1D2D03DC7B007FDD09 /* FirebaseStorageCombine-Community */; };
+		D4D1FDEE2CE553C70089F9AE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D4D1FDED2CE553C70089F9AE /* FirebaseAuth */; };
+		D4D1FDF02CE553C70089F9AE /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D4D1FDEF2CE553C70089F9AE /* FirebaseAuthCombine-Community */; };
+		D4D1FDF22CE553C70089F9AE /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D4D1FDF12CE553C70089F9AE /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D1FDA92CE532680089F9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D1FD872CE532660089F9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D1FD8E2CE532660089F9AE;
+			remoteInfo = FoodForMe;
+		};
+		D4D1FDB32CE532680089F9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D1FD872CE532660089F9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D1FD8E2CE532660089F9AE;
+			remoteInfo = FoodForMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D1FD8F2CE532660089F9AE /* FoodForMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodForMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D1FDA82CE532680089F9AE /* FoodForMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodForMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D1FDB22CE532680089F9AE /* FoodForMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodForMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D4D1FDBA2CE532680089F9AE /* Exceptions for "FoodForMe" folder in "FoodForMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4D1FD8E2CE532660089F9AE /* FoodForMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D4D1FD912CE532660089F9AE /* FoodForMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4D1FDBA2CE532680089F9AE /* Exceptions for "FoodForMe" folder in "FoodForMe" target */,
+			);
+			path = FoodForMe;
+			sourceTree = "<group>";
+		};
+		D4D1FDAB2CE532680089F9AE /* FoodForMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodForMeTests;
+			sourceTree = "<group>";
+		};
+		D4D1FDB52CE532680089F9AE /* FoodForMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodForMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D1FD8C2CE532660089F9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D1FDEE2CE553C70089F9AE /* FirebaseAuth in Frameworks */,
+				D45B3B1E2D03DC7B007FDD09 /* FirebaseStorageCombine-Community in Frameworks */,
+				D45B3B182D03D8D0007FDD09 /* FirebaseFirestore in Frameworks */,
+				D4D1FDF22CE553C70089F9AE /* FirebaseCore in Frameworks */,
+				D45B3B1A2D03D8D0007FDD09 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D4D1FDF02CE553C70089F9AE /* FirebaseAuthCombine-Community in Frameworks */,
+				D45B3B1C2D03DC7B007FDD09 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D1FDA52CE532680089F9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D1FDAF2CE532680089F9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D1FD862CE532660089F9AE = {
+			isa = PBXGroup;
+			children = (
+				D4D1FD912CE532660089F9AE /* FoodForMe */,
+				D4D1FDAB2CE532680089F9AE /* FoodForMeTests */,
+				D4D1FDB52CE532680089F9AE /* FoodForMeUITests */,
+				D4D1FD902CE532660089F9AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D1FD902CE532660089F9AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D1FD8F2CE532660089F9AE /* FoodForMe.app */,
+				D4D1FDA82CE532680089F9AE /* FoodForMeTests.xctest */,
+				D4D1FDB22CE532680089F9AE /* FoodForMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D1FD8E2CE532660089F9AE /* FoodForMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D1FDBB2CE532680089F9AE /* Build configuration list for PBXNativeTarget "FoodForMe" */;
+			buildPhases = (
+				D4D1FD8B2CE532660089F9AE /* Sources */,
+				D4D1FD8C2CE532660089F9AE /* Frameworks */,
+				D4D1FD8D2CE532660089F9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D4D1FD912CE532660089F9AE /* FoodForMe */,
+			);
+			name = FoodForMe;
+			packageProductDependencies = (
+				D4D1FDED2CE553C70089F9AE /* FirebaseAuth */,
+				D4D1FDEF2CE553C70089F9AE /* FirebaseAuthCombine-Community */,
+				D4D1FDF12CE553C70089F9AE /* FirebaseCore */,
+				D45B3B172D03D8D0007FDD09 /* FirebaseFirestore */,
+				D45B3B192D03D8D0007FDD09 /* FirebaseFirestoreCombine-Community */,
+				D45B3B1B2D03DC7B007FDD09 /* FirebaseStorage */,
+				D45B3B1D2D03DC7B007FDD09 /* FirebaseStorageCombine-Community */,
+			);
+			productName = FoodForMe;
+			productReference = D4D1FD8F2CE532660089F9AE /* FoodForMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D1FDA72CE532680089F9AE /* FoodForMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D1FDC02CE532680089F9AE /* Build configuration list for PBXNativeTarget "FoodForMeTests" */;
+			buildPhases = (
+				D4D1FDA42CE532680089F9AE /* Sources */,
+				D4D1FDA52CE532680089F9AE /* Frameworks */,
+				D4D1FDA62CE532680089F9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D1FDAA2CE532680089F9AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D4D1FDAB2CE532680089F9AE /* FoodForMeTests */,
+			);
+			name = FoodForMeTests;
+			packageProductDependencies = (
+			);
+			productName = FoodForMeTests;
+			productReference = D4D1FDA82CE532680089F9AE /* FoodForMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4D1FDB12CE532680089F9AE /* FoodForMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D1FDC32CE532680089F9AE /* Build configuration list for PBXNativeTarget "FoodForMeUITests" */;
+			buildPhases = (
+				D4D1FDAE2CE532680089F9AE /* Sources */,
+				D4D1FDAF2CE532680089F9AE /* Frameworks */,
+				D4D1FDB02CE532680089F9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D1FDB42CE532680089F9AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D4D1FDB52CE532680089F9AE /* FoodForMeUITests */,
+			);
+			name = FoodForMeUITests;
+			packageProductDependencies = (
+			);
+			productName = FoodForMeUITests;
+			productReference = D4D1FDB22CE532680089F9AE /* FoodForMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D1FD872CE532660089F9AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D4D1FD8E2CE532660089F9AE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D4D1FDA72CE532680089F9AE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D4D1FD8E2CE532660089F9AE;
+					};
+					D4D1FDB12CE532680089F9AE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D4D1FD8E2CE532660089F9AE;
+					};
+				};
+			};
+			buildConfigurationList = D4D1FD8A2CE532660089F9AE /* Build configuration list for PBXProject "FoodForMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D1FD862CE532660089F9AE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D4D1FD902CE532660089F9AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D1FD8E2CE532660089F9AE /* FoodForMe */,
+				D4D1FDA72CE532680089F9AE /* FoodForMeTests */,
+				D4D1FDB12CE532680089F9AE /* FoodForMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D1FD8D2CE532660089F9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D1FDA62CE532680089F9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D1FDB02CE532680089F9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D1FD8B2CE532660089F9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D1FDA42CE532680089F9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D1FDAE2CE532680089F9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D1FDAA2CE532680089F9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D1FD8E2CE532660089F9AE /* FoodForMe */;
+			targetProxy = D4D1FDA92CE532680089F9AE /* PBXContainerItemProxy */;
+		};
+		D4D1FDB42CE532680089F9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D1FD8E2CE532660089F9AE /* FoodForMe */;
+			targetProxy = D4D1FDB32CE532680089F9AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4D1FDBC2CE532680089F9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodForMe/FoodForMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRN5V3X7MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodForMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utcs.FoodForMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D1FDBD2CE532680089F9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodForMe/FoodForMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRN5V3X7MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodForMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utcs.FoodForMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4D1FDBE2CE532680089F9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4D1FDBF2CE532680089F9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D1FDC12CE532680089F9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utcs.FoodForMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodForMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodForMe";
+			};
+			name = Debug;
+		};
+		D4D1FDC22CE532680089F9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utcs.FoodForMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodForMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodForMe";
+			};
+			name = Release;
+		};
+		D4D1FDC42CE532680089F9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utcs.FoodForMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodForMe;
+			};
+			name = Debug;
+		};
+		D4D1FDC52CE532680089F9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utcs.FoodForMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodForMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D1FD8A2CE532660089F9AE /* Build configuration list for PBXProject "FoodForMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D1FDBE2CE532680089F9AE /* Debug */,
+				D4D1FDBF2CE532680089F9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D1FDBB2CE532680089F9AE /* Build configuration list for PBXNativeTarget "FoodForMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D1FDBC2CE532680089F9AE /* Debug */,
+				D4D1FDBD2CE532680089F9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D1FDC02CE532680089F9AE /* Build configuration list for PBXNativeTarget "FoodForMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D1FDC12CE532680089F9AE /* Debug */,
+				D4D1FDC22CE532680089F9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D1FDC32CE532680089F9AE /* Build configuration list for PBXNativeTarget "FoodForMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D1FDC42CE532680089F9AE /* Debug */,
+				D4D1FDC52CE532680089F9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D45B3B172D03D8D0007FDD09 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D45B3B192D03D8D0007FDD09 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		D45B3B1B2D03DC7B007FDD09 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		D45B3B1D2D03DC7B007FDD09 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		D4D1FDED2CE553C70089F9AE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D4D1FDEF2CE553C70089F9AE /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		D4D1FDF12CE553C70089F9AE /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D1FDEC2CE553C70089F9AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D4D1FD872CE532660089F9AE /* Project object */;
+}
